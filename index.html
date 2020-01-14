@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <form>
+        <div class="vormi-kontroll">
+            <label for="Sisestavanus">Vanus</label for>
+            <input type="tekst" class="vormi-kontroll" id="Sisestavanus" placeholder="Sisesta vanus">
+        </div>
+        <div class="vormi-kontroll">
+            <label for="Sisestakaal">Kaal</label for>
+            <input type="tekst" class="vormi-kontroll" id="Sisestakaal" placeholder="Sisesta kaal">
+        </div>
+        <div class="vormi-kontroll">
+            <label for="Sisestakorgus">Kõrgus</label for>
+            <input type="tekst" class="vormi-kontroll" id="Sisestakorgus" placeholder="Sisesta kõrgus (m)">
+        </div>
+
+        <button onclick="calc()" type="submit" id="calcbtn" class="btn btn-primary">Sisesta</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
